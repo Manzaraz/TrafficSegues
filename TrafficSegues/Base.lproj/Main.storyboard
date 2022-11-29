@@ -24,6 +24,12 @@
                                     <segue destination="afy-3z-kXN" kind="show" id="pc7-mJ-4Io"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zF8-IJ-bQH">
+                                <rect key="frame" x="148" y="366" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
@@ -34,6 +40,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Red" largeTitleDisplayMode="always" id="H95-be-n8E"/>
                     <connections>
+                        <outlet property="textField" destination="zF8-IJ-bQH" id="KeJ-Ce-2wn"/>
                         <outlet property="view" destination="8bC-Xf-vdC" id="fh6-B4-vfz"/>
                     </connections>
                 </viewController>
