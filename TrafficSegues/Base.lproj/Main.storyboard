@@ -32,7 +32,7 @@
                             <constraint firstItem="Gnq-y9-mSn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="61l-IX-NdJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Red" id="H95-be-n8E"/>
+                    <navigationItem key="navigationItem" title="Red" largeTitleDisplayMode="always" id="H95-be-n8E"/>
                     <connections>
                         <outlet property="view" destination="8bC-Xf-vdC" id="fh6-B4-vfz"/>
                     </connections>
@@ -113,8 +113,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6AZ-0f-SxV" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Itj-rA-Vn4">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Itj-rA-Vn4">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
